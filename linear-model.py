@@ -8,7 +8,7 @@ print(tf.__version__)
 
 X = np.arange(-10.0, 10.0, 1e-2)
 np.random.shuffle(X)
-y = 0.01 * X + 10
+y = 10 * X + 100
 
 train_end = int(0.6 * len(X))
 test_start = int(0.8 * len(X))
